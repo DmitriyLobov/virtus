@@ -45,7 +45,8 @@ h3{
 }
 
 .about p{
-	font-size: 2vmax;
+	font-size: 3vmin;
+	font-family: TAHOMA;
 }
 
 .images{
@@ -59,7 +60,9 @@ h3{
 	float:right;
 	width: 20vw;
 	height: 80vh;
-	background-color:green;
+	background-image: url("images/virtuspro.png");
+	background-size: contain;
+	background-repeat: no-repeat;
 	display: inline-block;
 	margin-right:5vw;
 }
@@ -94,7 +97,7 @@ h3{
 }
 
 .blockOne{
-	background-image: url("http://regencyengg.com/rithm2k15/images/portfolio/cs.jpg");
+	background-image: url("images/fOne.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
     animation: changeImage 10s infinite alternate;
@@ -121,7 +124,7 @@ h3{
 }
 .logot{
 	float:left;
-	background:url("http://dudaz.esy.es/_include/img/csgo-logo.png");
+	background:url("images/csgo.png");
     background-size: contain;
     background-repeat: no-repeat;
 	display: inline-block;
@@ -131,7 +134,7 @@ h3{
 
 .logoty{
 	float:left;
-	background:url("http://orig15.deviantart.net/237a/f/2012/081/b/e/lucid__icons___dota_2_white_by_legolinho-d4tkt7b.png");
+	background:url("images/dota.png");
     background-size: contain;
     background-repeat: no-repeat;
 	display: inline-block;
@@ -140,7 +143,7 @@ h3{
 }
 .logotyp{
 	float:left;
-	background:url("http://wiki.gcdn.co/images/1/1e/GameLogo_World_of_Tanks.png");
+	background:url("images/WoT.png");
     background-size: contain;
     background-repeat: no-repeat;
 	display: inline-block;
@@ -149,7 +152,7 @@ h3{
 }
 .logotype{
 	float:left;
-	background:url("http://rusticker.ru/p/b0ea65d0755634f5b2400f9925ad392b.png?t=1392494400");
+	background:url("images/warPlane.png");
     background-size: contain;
     background-repeat: no-repeat;
 	display: inline-block;
@@ -187,14 +190,27 @@ h3{
 	background-color:#FEAA04;
 }
 
+#goTop{
+	position:fixed;
+	display: inline-block;
+	right:3%;
+	bottom:3%;
+	width:10vmin;
+	height:10vmin;
+	background-image: url("images/arrowUp.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+
  @keyframes changeImage{
  	from{
-		background-image: url("http://regencyengg.com/rithm2k15/images/portfolio/cs.jpg");
+		background-image: url("images/fOne.jpg");
 		background-repeat: no-repeat;
 		background-size: cover;
  	}
  	to{
-		background-image: url("http://www.livewallpapers.org/wp-content/uploads/2012/12/counter-strike-global.jpg");
+		background-image: url("images/fTwo.jpg");
 		background-repeat: no-repeat;
 		background-size: cover;
  	}
@@ -202,12 +218,12 @@ h3{
 
  @-webkit-keyframes changeImage{
  	from{
-		background-image: url("http://regencyengg.com/rithm2k15/images/portfolio/cs.jpg");
+		background-image: url("images/fOne.jpg");
 		background-repeat: no-repeat;
 		background-size: cover;
  	}
  	to{
-		background-image: url("http://www.livewallpapers.org/wp-content/uploads/2012/12/counter-strike-global.jpg");
+		background-image: url("images/fTwo.jpg");
 		background-repeat: no-repeat;
 		background-size: cover;
  	}
